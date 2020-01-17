@@ -1,0 +1,36 @@
+[
+  {
+    "app": {
+      "username": "João M.",
+      "uid": "123abc",
+      "createdAt": "timestamp here",
+      "folder": [
+        {
+          "id": "1",
+          "title": "folder title",
+          "createdAt": "timestamp here",
+          "updatedAt": "timestamp update",
+          "board": [
+            {
+              "id": "1",
+              "title": "title board",
+              "createdAt": "timestamp here",
+              "updatedAt": "timestamp update",
+              "task": [
+                {
+                  "id": "1",
+                  "finished": "Boolean",
+                  "title": "task title",
+                  "content": "Description here",
+                  "finishNotes": "Additional content here upon completion",
+                  "createdAt": "timestamp here",
+                  "updatedAt": "timestamp update"
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  }
+]
